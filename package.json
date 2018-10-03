@@ -9,6 +9,8 @@
   "author": "Rakesh Joshi",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.0"
+    "dotenv": "^6.0.0",
+    "request": "^2.88.0",
+    "yargs": "^12.0.2"
   }
 }
