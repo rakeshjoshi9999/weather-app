@@ -8,9 +8,10 @@ A NodeJS application to get the details of the weather by providing the address
     API_KEY_GC<br>
     API_KEY_WEATHER<br>
     
-4.run `node app.js -a "address"` to get the weather details of the address entered.
+4. run `node app.js -a "address"` to get the weather details of the address entered.
 
 Ex. `node app.js -a "Electronic City,Bengaluru,560100"`,<br>
+
     `node app.js -a 560048`
 
 The weather-app gets the address from the user and converts the loction into latitude and longitudes using Google maps Geocode API and<br>
