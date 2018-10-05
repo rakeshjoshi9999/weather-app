@@ -17,7 +17,8 @@ const getWeather = (latitude,longitude,callback)=>{
             callback(undefined,{
                 summary:body.currently.summary,
                 temperature:((body.currently.temperature-32) * 0.55).toFixed(2) +" deg Celcius",
-                humidity:body.currently.humidity 
+                humidity:body.currently.humidity * 100 +"%",
+                apparentTemperature:((body.currently.apparentTemperature-32) * 0.55).toFixed(2) +" deg Celcius" 
             })
         }
     })
